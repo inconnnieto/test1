@@ -8,13 +8,16 @@ body {
 
 body {
     font-family: 'ubuntu';
+}
+
+.container {
     background-color: blue;
     background-image: url(img/connie_bg.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+    opacity: 0.5;
 }
 
 a {
