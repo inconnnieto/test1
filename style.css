@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    font-family: 'ubuntu';
+    background-color: blue;
+    background-image: url(img/connie_bg.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+a {
+    color: ;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.35em;
+    font-family: 'Oswald' ;
+    color: whitesmoke ;
+    letter-spacing: 0.01em;
+    margin: auto;
+    position:sticky;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.25em;
+    color: white;
+    margin: ;
+    opacity: 0.85;
+}
+
+header {
+  height: 100px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 996px) {
+    
+    
+}
+
+.link-icon {
+    width: 20px;
+    height: 20px;
+    transition: border-color 0.2s;
+    display: flex;
+    object-fit: contain;
+    margin: 30px;
+}
+
+nav {
+    width: 1fr;
+}
+
+.link-logo {
+  
+    display: flex;
+    margin: 30px;
+    object-fit: contain;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.top {
+    padding: 50px;
+    margin: 50px;
+}
+
+.link-biglogo {
+    justify-content: center;
+
+}
